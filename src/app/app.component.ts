@@ -1,10 +1,9 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'jsk-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+    selector: "jsk-root",
+    template: `<h1>Joseki-ng</h1>`
 })
 export class AppComponent {
-  title = 'jsk';
+    title = "jsk";
 }
